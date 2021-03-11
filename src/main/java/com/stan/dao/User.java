@@ -1,5 +1,7 @@
 package com.stan.dao;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import org.springframework.context.annotation.Primary;
 
@@ -7,7 +9,9 @@ import java.util.Date;
 
 
 public class User {
+    @TableId(type = IdType.AUTO)
     private Integer userId;
+
     private String userName;
     private String userPassword;
     private String userRole;
