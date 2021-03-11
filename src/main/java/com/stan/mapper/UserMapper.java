@@ -1,9 +1,8 @@
 package com.stan.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.stan.dao.Test;
+import com.stan.dao.User;
 
 
-public interface TestMapper extends BaseMapper<Test> {
-
+public interface UserMapper extends BaseMapper<User> {
 }

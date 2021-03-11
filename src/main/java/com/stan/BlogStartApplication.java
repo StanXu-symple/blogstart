@@ -1,4 +1,4 @@
-package com.stan.blogstart;
+package com.stan;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
