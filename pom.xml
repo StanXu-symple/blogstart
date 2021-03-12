@@ -70,7 +70,19 @@
 			<version>1.0.29</version>
 		</dependency>
 
+		<!--jwt 全程Json Web Token,用于前后端分离的登录鉴权-->
+		<dependency>
+			<groupId>com.auth0</groupId>
+			<artifactId>java-jwt</artifactId>
+			<version>3.10.3</version>
+		</dependency>
 
+		<!--fastjson 高效但垃圾-->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.75</version>
+		</dependency>
 	</dependencies>
 
 	<build>
